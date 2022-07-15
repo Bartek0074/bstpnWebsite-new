@@ -1,3 +1,14 @@
+# bstpnWebsite-new
+
+I'm working on new portfolio website.</br>
+
+⚙ Technology I want to use:
+- HTML
+- SASS
+- BEM
+- ReactJS
+- maybe some Bootstrap?
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
