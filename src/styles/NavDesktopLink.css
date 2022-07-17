@@ -1,0 +1,58 @@
+.square-effect-symetrical-wrapper{
+    position: relative;
+    text-decoration: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.square-effect-symetrical-wrapper::before,
+.square-effect-symetrical-wrapper::after{
+    content: '';
+    position: absolute;
+    height: calc(100% + 8px);
+    width: 2px;
+    background-color: #1775e1;
+    transform: scaleY(0);
+    transition: transform .3s;
+}
+.square-effect-symetrical-wrapper::before{
+    bottom: -4px;
+    right: 0;
+    transform-origin: bottom right;
+}
+.square-effect-symetrical-wrapper::after{
+    top: -4px;
+    left: 0;
+    transform-origin: top left;
+}
+.square-effect-symetrical-wrapper:hover::before,
+.square-effect-symetrical-wrapper:hover::after{
+    transform: scaleY(1);
+}
+.square-effect-symetrical {
+    position: relative;
+    padding: 4px 6px;
+}
+.square-effect-symetrical::before,
+.square-effect-symetrical::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #1775e1;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+.square-effect-symetrical::before{
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}
+.square-effect-symetrical::after{
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+.square-effect-symetrical:hover::before,
+.square-effect-symetrical:hover::after{
+    transform: scaleX(1);
+}
