@@ -1,6 +1,11 @@
+import Navigation from "../components/Navigation"
+
 const Error404 = () => {
     return(
-        <h1>Error404</h1>
+        <>
+            <Navigation></Navigation>
+            <h1>Error404</h1>
+        </>
     )
 }
 

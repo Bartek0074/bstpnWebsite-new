@@ -1,6 +1,11 @@
+import Navigation from "../components/Navigation"
+
 const Home = () => {
     return(
-        <h1>Home</h1>
+        <>
+            <Navigation></Navigation>
+            <h1>Home</h1>
+        </>
     )
 }
 
