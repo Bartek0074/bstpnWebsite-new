@@ -1,6 +1,6 @@
 # bstpnWebsite-new
 
-I'm working on new portfolio website.</br>
+I'm improving my portfolio website from JavaScript to ReactJS</br>
 
 ⚙ Technology I want to use:
 - HTML
