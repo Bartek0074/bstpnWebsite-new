@@ -9,6 +9,8 @@ I'm improving my portfolio website from JavaScript to ReactJS</br>
 - ReactJS
 - maybe some Bootstrap?
 
+ Demo: not yet
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
